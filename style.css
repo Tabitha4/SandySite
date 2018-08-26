@@ -1,0 +1,105 @@
+/******Classes******/
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: center;
+  min-width: 260px;
+}
+
+div {
+  position: static;
+  display: block;
+}
+
+.name {
+  font-size: 60px;
+  margin: 0px;
+}
+
+h3 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.description {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+  padding-top: 50px;
+}
+
+#img-div {
+  padding-top: 10px;
+}
+
+blockquote {
+  border-left: none !important;
+  padding: 0px;
+}
+
+.quote {
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.timeline-header {
+  text-align: left;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+p {
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+/******ID's******/
+#main {
+  background: #E3D5E8;
+  margin: 15px;
+  border: 0px solid;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+#image {
+display: block;
+margin-left: auto;
+margin-right: auto;
+min-width: 50%;
+height: auto;
+}
+
+#img-div {
+  max-width: 50%;
+  background: #fff;
+  border: 5px solid white;
+  margin: 0 auto;
+}
+
+#img-caption {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 440px) and (max-width: 767px) {
+  #img-div {
+    max-width: 80%;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 439px) {
+  #img-div {
+    max-width: 100%;
+  }
+}
